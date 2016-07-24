@@ -1,0 +1,58 @@
+---
+#--------------------------------
+language: "EN"
+#--------------------------------
+server_lobby_world: Mineplex - Block Hunt
+server_lobby_x: "-229"
+server_lobby_y: "5"
+server_lobby_z: "-20"
+blockhunt_home_world: Mineplex - Block Hunt
+blockhunt_home_x: "-229"
+blockhunt_home_y: "5"
+blockhunt_home_z: "-20"
+minimal_players_to_start: 2
+server_lobby_sign_level: Mineplex - Block Hunt
+server_lobby_sign_x: 125
+server_lobby_sign_y: 5
+server_lobby_sign_z: 121
+
+#default teleport to lobby
+default_teleport_player_to_lobby_on_join: true
+
+#podium signs 
+bh_podium_diamond_x: "-229"
+bh_podium_diamond_y: "6"
+bh_podium_diamond_z: "-31"
+
+bh_podium_gold_x: "-231"
+bh_podium_gold_y: "6"
+bh_podium_gold_z: "-31"
+
+bh_podium_silver_x: "-233"
+bh_podium_silver_y: "6"
+bh_podium_silver_z: "-31"
+
+bh_hider_podium_gold_x: "-235"
+bh_hider_podium_gold_y: "6"
+bh_hider_podium_gold_z: "-19"
+
+bh_hider_podium_silver_x: "-235"
+bh_hider_podium_silver_y: "6"
+bh_hider_podium_silver_z: "-17"
+
+bh_hider_podium_bronse_x: "-235"
+bh_hider_podium_bronse_y: "6"
+bh_hider_podium_bronse_z: "-21"
+
+bh_seeker_podium_gold_x: "-235"
+bh_seeker_podium_gold_y: "6"
+bh_seeker_podium_gold_z: "-27"
+
+bh_seeker_podium_silver_x: "-235"
+bh_seeker_podium_silver_y: "6"
+bh_seeker_podium_silver_z: "-25"
+
+bh_seeker_podium_bronse_x: "-235"
+bh_seeker_podium_bronse_y: "6"
+bh_seeker_podium_bronse_z: "-29"
+...

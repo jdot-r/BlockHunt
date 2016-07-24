@@ -1,0 +1,156 @@
+# -----------------------------------------------------------
+# MinecraftGenius76 
+# Mini-Games - BlockHunt 
+# Web site: minecraftgenius76.com
+# Youtube: http://www.youtube.com/user/minecraftgenius76
+# language file
+# Contributor(s): mcg76
+# -----------------------------------------------------------
+languageCode: "CN1"
+languageName: "CHINESE"
+languageDescription: "CHINESE SIMPLIFIED"
+version: "1.11.0"
+# -----------------------------------------------------------
+bh:
+ game: "捉迷藏-块追捕"
+ prefix: "[BH]"
+ command:
+  in-game-only: "[BH] 命令只适用于游戏中的游戏.\n"
+  no-authorization: "[BH] 你无权使用此命令!\n" 
+  blockoff:
+   success: "[BH] 块位置显示关闭"
+  blockon:
+   success: "[BH] 打开块位置显"	
+  setbalance:
+   usage: "[BH]用法: /bh setbalance [球员的名字] [量]" 
+   success: "[BH] 账户余额更新!" 
+  addvip:
+   usage: "[BH]用法: /bh addvip [球员的名字]" 
+   success: "[BH] 加入 贵客!" 
+  delvip:
+    usage: "[BH]用法: /bh delvip [球员的名字]" 
+    success: "[BH] 贵客 删除!"
+  createprofile:
+    usage: "[BH]用法: /bh createprofile [球员的名字]" 
+    success: "[BH] 球员的名字 配置文件创建!"
+  setvip:
+    usage: "用法: /bh setvip [球员的名字] [true|false]" 
+    success: "[BH] 贵客 设置好的!"
+  xyz: 
+    success: "[BH] 你在世界 "
+  stats: 
+    title: "[BH] 我的统计数据 "
+    wins: "[BH] 胜 "
+    loss: "[BH] 损失 "
+    notfound: "[BH] 无状态记录中发现!"        
+  balance: 
+    success: "[BH] 我的账户余额 "
+    failed: "[BH] 没有找到记录 "    
+  profile: 
+    title: "[BH] 我的个人资料 "
+    balance: "[BH] 账户余额 "    
+    wins: "[BH] 胜 "    
+    loss: "[BH] 损失 "    
+    vip: "[BH] VIP "        
+  info: 
+    profile: "/bh profile - 播放器视图记录\n"
+    stats: "/bh stats   - 查看玩家资料"    
+    balance: "/bh balance - 球员认为自己的账户余额\n"    
+    leave: "/bh leaves  - 玩家离开游戏\n"    
+    xyz: "/bh xyz     - 告诉玩家当前位置\n"       
+    home: "/bh home    - 回到玩家的家\n"                
+    addvip: "/bh addvip [name] - 管理员添加VIP玩家的 as VIP\n"
+    delvip: "/bh delvip [name] - 管理变革VIP状态\n"   
+    setbalance: "/bh setbalance [name] -- 管理员设置播放器硬币平衡\n"    
+    createprofile: "/bh createprofile [name] -- 管理员创建一个球员纪录\n"                    
+    newarena: "/bh newarena [name] - 创建新舞台\n"
+    arenawand: "/bh arenawand [arena name]        - 用魔杖选择舞台上的地位\n"   
+    seekerdoorwand: "/bh seekerdoorwand [arena name]   - 用魔杖选择导引头门位置 \n"    
+    defencewand: "/bh defencewand [defence name]    - 用魔杖选择一个保护区\n"    
+    newdefence: "/bh newdefence  [defence name]    - 创建新的保护区，如游戏中心\n"     
+    addblock: "/bh addblock [arena name]         - 选择添加模块，通过它突破\n"                   
+    clear: "/bh clear                         - 明确当前的选择\n"
+    setlobby: "/bh setlobby [arena name]         - 加入竞技场大厅，由它突破\n"       
+    setseeker: "/bh setseeker [arena name]         - 集舞台导引头的重生点使用播放器的当前位置\n" 
+    sethider: "/bh sethider [arena name]         - 集舞台上藏起来的重生点使用播放器的当前位置\n"   
+    blockon: "/bh blockon           - 方便的命令，把块位置显示器\n" 
+    blockoff: "/bh blockoff          - 方便的命令，把块位置显示器\n"   
+    xyz: "/bh xyz               - 的显示播放器的当前位置.\n"  
+
+ play:
+  won: " 赢 "  
+  coins: "硬币"
+  hider: "隐藏者"
+  seeker: "狩猎者 "
+  elapsed:
+    time: "[BH] 经过时间 "
+    hider: " 秒 | 隐藏者 "
+    seeker: " | 狩猎者 "	  
+  teleport:
+    seekerswarp: "[BH] 返回经寻道]"   
+  itemcase:
+    vipfree: "[BH] 贵客 免费!"   
+    notenoughtcoins: "[BH] 没有足够多的金币！项目价格: "  	
+    thanks: "[BH] 谢谢,"
+    purchased: " 购买了 $"
+    coins: " 硬币"
+  setup:
+    addarenablock: "[BH] 加入竞技场块"  
+    setarenap1: "[BH] 集舞台上的地位 #1"  	
+    setarenap2: "[BH] 集舞台上的地位 #2"  	
+    setseekerdoorp1: "[BH] 设置导引头门位置 #1"  	
+    setseekerdoorp2: "[BH] 设置导引头门位置 #2"  			
+  warning: 
+    border: "[BH] 您已达到舞台的边界。回来。"  
+    seekerkilled: "[BH] [狩猎者]被打死 "
+    hiderkilled: "[BH] [隐藏者]被打死 "
+    remainseeker: "[BH] 剩余[狩猎者] "
+    remainhider: " 隐藏者 "     
+    hiderleft: "[BH] 隐藏者离开游戏 "
+    seekerleft: "[BH] 狩猎者离开游戏 "     
+    killedbyseeker: "由狩猎者打死"
+    hider: "[BH] 隐藏者 "	
+    toomanyseekers: "[BH] 太多的[狩猎者]，请稍后再试" 	
+    toomanyhiders: "[BH] 太多的[隐藏者]，请稍后再试" 
+    seekerwaitingforstart: "[BH] 你加入为[狩猎者]。等待启动"
+    hiderwaitingforstart: "[BH] 你加入为[隐藏者]。等待启动"
+    playerexit: "[BH] 你退出比赛" 	
+  finished: 
+    message: "[BH] 游戏结束!"
+    hinderwin: "[BH] 祝贺[隐藏者] 赢: " 
+    seekerwin: "[BH] 祝贺[狩猎者] 赢: " 
+  start: 
+    countdown: "[BH] 开始在 "
+    seconds: " 秒钟内"     
+    missinghiders: "[BH] 请稍候,缺少[隐藏者]参与,来开始游戏" 
+    missingseekers: "[BH] 请稍候,缺少[狩猎者]参与,来开始游戏"
+    releaseseekers: "[BH] [狩猎者]将会释放在 "
+    assignedblock: "[BH] 您分配块 "     
+    changeblock: "[BH] 要改变从库存持有项目"
+    timeleft5: " [BH] 5 秒 剩下. 隐藏者 "     
+    timeleft4: " [BH] 4 秒 剩下. 隐藏者 " 
+    timeleft3: " [BH] 3 秒 剩下. 隐藏者 " 
+    timeleft2: " [BH] 2 秒 剩下. 隐藏者 " 
+    timeleft1: " [BH] 1 秒 剩下. 隐藏者 "
+  signs:
+    title: "[捉迷藏-块追捕]"  
+    join: 
+      seekers: "加入[狩猎者]"    
+      hiders: "加入[隐藏者]"    
+    stats: 
+      min: "最小."    
+      hiders: "加入[隐藏者]"    
+      seekers: "加入[狩猎者]"
+      joined: " 加盟: "
+      seekers2: "狩猎者: "
+      hiders2: "隐藏者: "
+  arena: 
+    preparing: "准备"
+    available: "可用"    
+    waiting: "等候"   
+    playing: "比赛进行中" 	
+    countdown: "倒计" 
+  gateopen: "[BH] 打开[狩猎者]的门"
+  timeout: "[BH] 快点，时间在"
+  seconds: " 秒钟内."
+  seekerreleased: "[BH] 请注意[狩猎]者出发!"                            

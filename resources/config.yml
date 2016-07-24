@@ -1,0 +1,57 @@
+#--------------------------------
+# MGC76 BlockHunt Configuration
+# version 1.11.0
+#--------------------------------
+language: "EN"
+#----------------------------------
+server_lobby_world: "mcg76_blockhunt_home"
+server_lobby_x: "128"
+server_lobby_y: "4"
+server_lobby_z: "128"
+#----------------------------------
+blockhunt_home_world: "mcg76_blockhunt_home"
+blockhunt_home_x: "128"
+blockhunt_home_y: "4"
+blockhunt_home_z: "128"
+
+#schedule arena reset
+bh_auto_reset_arena: false
+
+#default teleport to lobby
+default_teleport_player_to_lobby_on_join: true
+
+bh_podium_diamond_x: "1"
+bh_podium_diamond_y: "86"
+bh_podium_diamond_z: "-845"
+
+bh_podium_gold_x: "1"
+bh_podium_gold_y: "86"
+bh_podium_gold_z: "-844"
+
+bh_podium_silver_x: "1"
+bh_podium_silver_y: "86"
+bh_podium_silver_z: "-846"
+
+bh_hider_podium_gold_x: "161"
+bh_hider_podium_gold_y: "6"
+bh_hider_podium_gold_z: "150"
+
+bh_hider_podium_silver_x: "163"
+bh_hider_podium_silver_y: "6"
+bh_hider_podium_silver_z: "150"
+
+bh_hider_podium_bronse_x: "159"
+bh_hider_podium_bronse_y: "6"
+bh_hider_podium_bronse_z: "150"
+
+bh_seeker_podium_gold_x: "160"
+bh_seeker_podium_gold_y: "6"
+bh_seeker_podium_gold_z: "124"
+
+bh_seeker_podium_silver_x: "162"
+bh_seeker_podium_silver_y: "6"
+bh_seeker_podium_silver_z: "124"
+
+bh_seeker_podium_bronse_x: "158"
+bh_seeker_podium_bronse_y: "6"
+bh_seeker_podium_bronse_z: "124"

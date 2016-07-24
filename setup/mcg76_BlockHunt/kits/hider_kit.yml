@@ -1,0 +1,39 @@
+---
+kitName: hider_kit
+isDefault: false
+price: 20
+quantity: 1
+health: 20
+itemOnHand: 268
+armors:
+  helmet:
+  - 0
+  - "0"
+  - "1"
+  chestplate:
+  - 0
+  - "0"
+  - "1"
+  leggings:
+  - 0
+  - "0"
+  - "1"
+  boots:
+  - 0
+  - "0"
+  - "1"
+weapons:
+  268:
+  - 268
+  - "0"
+  - "1"
+foods:
+  364:
+  - 364
+  - "0"
+  - "2"
+  366:
+  - 366
+  - "0"
+  - "2"
+...

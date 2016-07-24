@@ -1,0 +1,58 @@
+---
+#--------------------------------
+language: "EN"
+#--------------------------------
+server_lobby_world: h003
+server_lobby_x: "5"
+server_lobby_y: "90"
+server_lobby_z: "-852"
+blockhunt_home_world: h003
+blockhunt_home_x: "5"
+blockhunt_home_y: "90"
+blockhunt_home_z: "-852"
+minimal_players_to_start: 2
+server_lobby_sign_level: h003
+server_lobby_sign_x: 125
+server_lobby_sign_y: 5
+server_lobby_sign_z: 121
+
+#default teleport to lobby
+default_teleport_player_to_lobby_on_join: true
+
+#podium signs 
+bh_podium_diamond_x: "1"
+bh_podium_diamond_y: "86"
+bh_podium_diamond_z: "-845"
+
+bh_podium_gold_x: "1"
+bh_podium_gold_y: "86"
+bh_podium_gold_z: "-844"
+
+bh_podium_silver_x: "1"
+bh_podium_silver_y: "86"
+bh_podium_silver_z: "-846"
+
+bh_hider_podium_gold_x: "6"
+bh_hider_podium_gold_y: "92"
+bh_hider_podium_gold_z: "-859"
+
+bh_hider_podium_silver_x: "5"
+bh_hider_podium_silver_y: "92"
+bh_hider_podium_silver_z: "-859"
+
+bh_hider_podium_bronse_x: "7"
+bh_hider_podium_bronse_y: "92"
+bh_hider_podium_bronse_z: "-859"
+
+bh_seeker_podium_gold_x: "-2"
+bh_seeker_podium_gold_y: "92"
+bh_seeker_podium_gold_z: "-852"
+
+bh_seeker_podium_silver_x: "-2"
+bh_seeker_podium_silver_y: "92"
+bh_seeker_podium_silver_z: "-851"
+
+bh_seeker_podium_bronse_x: "-2"
+bh_seeker_podium_bronse_y: "92"
+bh_seeker_podium_bronse_z: "-853"
+...

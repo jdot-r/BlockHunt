@@ -1,0 +1,115 @@
+---
+id: 103
+name: BH_Sonny
+type: false
+levelName: h003
+positionX: 4.000000
+positionY: 90.000000
+positionZ: -852.000000
+capacity: 20
+reward: 12
+reset_time: 180
+size: 16
+count_down: 3
+seekerReleaseTime: 3
+entranceX: 4.000000
+entranceY: 90.000000
+entranceZ: -852.000000
+
+exitX: 4.000000
+exitY: 90.000000
+exitZ: -852.000000
+
+lobbyX: 4.000000
+lobbyY: 90.000000
+lobbyZ: -852.000000
+
+#2
+pos1X: -122.000000
+pos1Y: 3.000000
+pos1Z: -920.000000
+
+pos2X: -231.000000
+pos2Y: 25.000000
+pos2Z: -817.000000
+
+seekerX: -176.000000
+seekerY: 6.000000
+seekerZ: -849.000000
+
+hiderX: -188.000000
+hiderY: 6.000000
+hiderZ: -894.000000
+
+signJoinX: 196.000000
+signJoinY: 4.000000
+signJoinZ: 102.000000
+
+signStatsX: -2.000000
+signStatsY: 90.000000
+signStatsZ: -852.000000
+
+signStats2X: 6.000000
+signStats2Y: 90.000000
+signStats2Z: -859.000000
+
+signExitX: -191.000000
+signExitY: 6.000000
+signExitZ: -891.000000
+
+signExit2X: -176.000000
+signExit2Y: 6.000000
+signExit2Z: -847.000000
+
+signJoinSeekerX: -2.000000
+signJoinSeekerY: 91.000000
+signJoinSeekerZ: -852.000000
+
+signJoinSeeker2X: 163.000000
+signJoinSeeker2Y: 7.000000
+signJoinSeeker2Z: 135.000000
+
+signJoinHiderX: 6.000000
+signJoinHiderY: 91.000000
+signJoinHiderZ: -859.000000
+
+signJoinHider2X: 163.000000
+signJoinHider2Y: 7.000000
+signJoinHider2Z: 141.000000
+
+min: 1
+max: 12
+
+allowHiders: 10
+allowSeekers: 10
+
+seekergate1X: -176.000000
+seekergate1Y: 5.000000
+seekergate1Z: -853.000000
+
+seekergate2X: -177.000000
+seekergate2Y: 7.000000
+seekergate2Z: -853.000000
+
+#block hunt portal
+portal1X: "170"
+portal1Y: "4"
+portal1Z: "119"
+
+portal2X: "151"
+portal2Y: "13"
+portal2Z: "154"
+
+blocks:
+  98: Stone Bricks
+  17: Log
+  4: Cobble Stone
+  5: Plank
+  45: Bricks
+  20: Glass
+  86: Pumkin
+  170: Hay Bale
+  1: Stone
+  5: Oak Wood Planks
+
+...

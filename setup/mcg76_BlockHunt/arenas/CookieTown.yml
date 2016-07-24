@@ -1,0 +1,116 @@
+---
+id: 105
+name: CookieTown
+type: true
+levelName: Mineplex - Block Hunt
+positionX: -229.000000
+positionY: 5.000000
+positionZ: -20.000000
+capacity: 60
+reward: 10
+reset_time: 180
+size: 50
+count_down: 10
+seekerReleaseTime: 10
+
+entranceX: -229.000000
+entranceY: 5.000000
+entranceZ: -20.000000
+
+exitX: -229.000000
+exitY: 5.000000
+exitZ: -20.000000
+
+lobbyX: -229.000000
+lobbyY: 5.000000
+lobbyZ: -20.000000
+
+#2
+pos1X: -144.000000
+pos1Y: 0.000000
+pos1Z: -96.000000
+
+pos2X: 79.000000
+pos2Y: 63.000000
+pos2Z: 111.000000
+
+seekerX: -26.000000
+seekerY: 4.000000
+seekerZ: 59.000000
+
+hiderX: 14.000000
+hiderY: 4.000000
+hiderZ: 1.000000
+
+signJoinX: -203.000000
+signJoinY: 6.000000
+signJoinZ: -16.000000
+
+signStatsX: -207.000000
+signStatsY: 6.000000
+signStatsZ: -14.000000
+
+signStats2X: -212.000000
+signStats2Y: 7.000000
+signStats2Z: -16.000000
+
+signExitX: 14.000000
+signExitY: 5.000000
+signExitZ: -4.000000
+
+signExit2X: -29.000000
+signExit2Y: 5.000000
+signExit2Z: 59.000000
+
+signJoinSeekerX: -203.000000
+signJoinSeekerY: 6.000000
+signJoinSeekerZ: -17.000000
+
+signJoinSeeker2X: 163.000000
+signJoinSeeker2Y: 7.000000
+signJoinSeeker2Z: 135.000000
+
+signJoinHiderX: -203.000000
+signJoinHiderY: 6.000000
+signJoinHiderZ: -15.000000
+
+signJoinHider2X: 163.000000
+signJoinHider2Y: 7.000000
+signJoinHider2Z: 141.000000
+
+min: 2
+max: 60
+
+allowHiders: 60
+allowSeekers: 10
+
+seekergate1X: -22.000000
+seekergate1Y: 4.000000
+seekergate1Z: 54.000000
+
+seekergate2X: -23.000000
+seekergate2Y: 6.000000
+seekergate2Z: 54.000000
+
+#block hunt portal
+portal1X: "170"
+portal1Y: "4"
+portal1Z: "119"
+
+portal2X: "151"
+portal2Y: "13"
+portal2Z: "154"
+
+blocks:
+  98: Stone Bricks
+  17: Log
+  4: Cobble Stone
+  5: Plank
+  45: Bricks
+  20: Glass
+  86: Pumkin
+  170: Hay Bale
+  1: Stone
+  5: Oak Wood Planks
+
+...

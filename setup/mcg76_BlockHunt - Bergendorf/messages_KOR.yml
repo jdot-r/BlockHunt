@@ -1,0 +1,156 @@
+# -----------------------------------------------------------
+# MinecraftGenius76 
+# Mini-Games - BlockHunt 
+# Web site: minecraftgenius76.com
+# Youtube: http://www.youtube.com/user/minecraftgenius76
+# language file
+# Contributor(s): mcg76
+# -----------------------------------------------------------
+languageCode: "KOR"
+languageName: "KOREAN"
+languageDescription: "KOREAN LANGUAGE"
+version: "1.11.0"
+# -----------------------------------------------------------
+bh:
+ game: "숨바꼭질"
+ prefix: "[BH]"
+ command:
+  in-game-only: "[BH]에서만 사용할 수 있습니다 게임 플레이 를 명령.\n"
+  no-authorization: "[BH]이 명령을 사용할 권한이 없습니다!\n" 
+  blockoff:
+   success: "[BH] 블록 위치 표시 OFF"
+  blockon:
+   success: "[BH] 블록 위치 표시 ON"	
+  setbalance:
+   usage: "[BH]usage: /bh setbalance [선수 이름] [양]" 
+   success: "[BH] balance updated!" 
+  addvip:
+   usage: "[BH]usage: /bh addvip [선수 이름]" 
+   success: "[BH] VIP 추가!" 
+  delvip:
+    usage: "[BH]usage: /bh delvip [선수 이름]" 
+    success: "[BH] 삭제 VIP!"
+  createprofile:
+    usage: "[BH]usage: /bh createprofile [선수 이름]" 
+    success: "[BH] 플레이어 프로파일 작성!"
+  setvip:
+    usage: "usage: /bh setvip [player name] [true|false]" 
+    success: "[BH] VIP 살고 있고!"
+  xyz: 
+    success: "[BH] 당신은 세계 에 "
+  stats: 
+    title: "[BH] 내 통계 "
+    wins: "[BH] 승 "
+    loss: "[BH] 손실 "
+    notfound: "[BH] 통계 자료 기록은 찾을 수 없습니다!"        
+  balance: 
+    success: "[BH] 내 균형 이다 "
+    failed: "[BH] 찾을 수 없음 프로필이 존재하지 않습니다 "    
+  profile: 
+    title: "[BH] 내 프로필 "
+    balance: "[BH] 균형 "    
+    wins: "[BH] 승리 "    
+    loss: "[BH] 손실 "    
+    vip: "[BH] VIP "        
+  info: 
+    profile: "/bh profile - player view profile\n"
+    stats: "/bh stats   - player view wins|loss stats\n"    
+    balance: "/bh balance - player view balances\n"    
+    leave: "/bh leaves  - player leaves the game\n"    
+    xyz: "/bh xyz     - tell player current location\n"       
+    home: "/bh home    - player return home\n"                
+    addvip: "/bh addvip [name] - admin add VIP player as VIP\n"
+    delvip: "/bh delvip [name] - admin change VIP status\n"   
+    setbalance: "/bh setbalance [name] -- admin set player coin balance\n"    
+    createprofile: "/bh createprofile [name] -- admin create a player profile\n"                    
+    newarena: "/bh newarena [name] - create new arena\n"
+    arenawand: "/bh arenawand [arena name]        - use wand to select arena position\n"   
+    seekerdoorwand: "/bh seekerdoorwand [arena name]   - use wand to select seeker door position \n"    
+    defencewand: "/bh defencewand [defence name]    - use wand to select a protection area\n"    
+    newdefence: "/bh newdefence  [defence name]    - create new protected area such as game center\n"     
+    addblock: "/bh addblock [arena name]         - add select blocks, by break it\n"                   
+    clear: "/bh clear                         - clear current selection\n"
+    setlobby: "/bh setlobby [arena name]         - add arena lobby, by break it\n"       
+    setseeker: "/bh setseeker [arena name]         - set arena seeker spawn point use player current location\n" 
+    sethider: "/bh sethider [arena name]         - set arena hider spawn point use player current location\n"   
+    blockon: "/bh blockon           - handy command, turn on block location display\n" 
+    blockoff: "/bh blockoff          - handy command, turn off block location display\n"   
+    xyz: "/bh xyz               - display player current location.\n"  
+ play:
+  won: " 승리 "  
+  coins: "동전"
+  hider: "히더 "
+  seeker: "사냥꾼 "
+  elapsed:
+    time: "[BH] 시간이 경과 "
+    hider: " 초 | 히더 "
+    seeker: " | 사냥꾼 "	
+  teleport:
+    seekerswarp: "[BH] 워프 를 간구 로 돌아 가기]"   
+  itemcase:
+    vipfree: "[BH] VIP 무료!"   
+    notenoughtcoins: "[BH] 한 정도로 하지 동전 ! 품목 가격: "  	
+    thanks: "[BH] 감사,"
+    purchased: " 구입 $"
+    coins: " 동전"
+  setup:
+    addarenablock: "[BH] 추가 경기장 블록"  
+    setarenap1: "[BH] 설정 경기장 위치 #1"  	
+    setarenap2: "[BH] Set arena Position #2"  	
+    setseekerdoorp1: "[BH] 설정 경기장 위치 #1"  	
+    setseekerdoorp2: "[BH] 설정 경기장 위치 #2"  		
+  warning: 
+    border: "[BH] 당신은 경기장 의 경계 에 도달했습니다. 다시 단계."  
+    seekerkilled: "[BH] 찾는 사람 은 죽었다 "
+    hiderkilled: "[BH] 히더 는 죽었다 "
+    remainseeker: "[BH] 구직자 를 유지 "
+    remainhider: " 히더 "     
+    hiderleft: "[BH] 히더 는 경기장을 떠날 "
+    seekerleft: "[BH] 찾는 사람 은 경기장을 떠날 "     
+    killedbyseeker: "찾는 사람 에 의해 살해"
+    hider: "[BH] 히더 "
+    toomanyseekers: "[BH] 너무 많은 구직자 는 나중에 다시 시도" 	
+    toomanyhiders: "[BH] 너무 많은 히더 는 나중에 다시 시도" 
+    seekerwaitingforstart: "[BH] 당신은 팀 [ 찾는 사람 ] 에 합류했다. 시작을 기다립니다"
+    hiderwaitingforstart: "[BH] 당신은 [ 히더 ] 팀 에 합류했다. 시작을 기다립니다"
+    playerexit: "[BH] 당신은 게임 을 종료" 
+  finished: 
+    message: "[BH] 게임 완료!"
+    hinderwin: "[BH] 축하 히더 승리: " 
+    seekerwin: "[BH] 축하 찾는 승리: " 
+  start: 
+    countdown: "[BH] 에서 시작 "
+    seconds: " 초"     
+    missinghiders: "[BH] [ 히더 ] 누락 된 게임 을 시작합니다" 
+    missingseekers: "[BH] [ 간구 ] 게임을 시작 실종"
+    releaseseekers: "[BH] 에 찾는 사람 (들) 출시"
+    assignedblock: "[BH] 할당 된 블록 "     
+    changeblock: "[BH] 인벤토리에서 보류 항목을 변경합니다.."
+    timeleft5: " [BH] 5 초 떠났다. 히더 "     
+    timeleft4: " [BH] 4 초 떠났다. 히더 " 
+    timeleft3: " [BH] 3 초 떠났다. 히더 " 
+    timeleft2: " [BH] 2 초 떠났다. 히더 " 
+    timeleft1: " [BH] 1 초 떠났다. 히더 " 
+  signs:
+    title: "[숨바꼭질]"  
+    join: 
+      seekers: "찾는 [가입]"    
+      hiders: "히더 [가입]"    
+    stats: 
+      min: "최소의"    
+      hiders: "히더 [가입]"    
+      seekers: "찾는 [가입]"
+      joined: " 가입: "
+      seekers2: "찾는 사람: "
+      hiders2: "히더: "
+  arena: 
+    preparing: "준비"
+    available: "유효한"    
+    waiting: "기다리는"   
+    playing: "재생" 	
+    countdown: "카운트 다운" 		
+  gateopen: "[BH] 열기 [ 찾는 사람 ] 게이트"
+  timeout: "[BH] 에 서둘러 , 시간 제한"
+  seconds: " 초."
+  seekerreleased: "[BH] 발표 주의 [ 찾는 사람 ]!"
+     

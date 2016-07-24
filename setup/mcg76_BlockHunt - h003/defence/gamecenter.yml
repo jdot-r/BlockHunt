@@ -1,0 +1,15 @@
+---
+name: gamecenter
+levelName: h003
+type: ~
+effect: false
+point1X: -7
+point1Y: 84
+point1Z: -844
+point2X: 13
+point2Y: 99
+point2Z: -861
+entraceX: false
+entraceY: false
+entraceZ: false
+...

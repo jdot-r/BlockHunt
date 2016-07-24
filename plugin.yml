@@ -1,0 +1,18 @@
+name: mcg76_BlockHunt
+version: 2.6.0
+api: [1.12.0]
+load: POSTWORLD
+main: mcg76\game\blockhunt\BlockHuntPlugIn
+author: minecraftgenius76
+website: http://www.youtube.com/user/minecraftgenius76
+description: minecraftgenius76 BlockHunt
+commands:
+  bh:
+    description: "minecraftgenius76 minigames BlockHunt"
+    permission: mcg76.blockhunt
+permissions:
+  mcg76.blockhunt:
+    default: true
+    children:
+    mcg76.blockhunt.command:
+      default: true

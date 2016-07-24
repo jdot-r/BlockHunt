@@ -1,0 +1,114 @@
+---
+id: 1424926002
+name: Bergendorf
+type: false
+levelName: SkGa.me BlockHunt
+positionX: 17.000000
+positionY: 106.000000
+positionZ: -45.000000
+capacity: 20
+reward: 12
+reset_time: 180
+size: 16
+count_down: 3
+seekerReleaseTime: 3
+entranceX: 17.000000
+entranceY: 106.000000
+entranceZ: -45.000000
+
+exitX: 17.000000
+exitY: 106.000000
+exitZ: -45.000000
+
+lobbyX: 17.000000
+lobbyY: 106.000000
+lobbyZ: -45.000000
+
+pos1X: -70.000000
+pos1Y: 104.000000
+pos1Z: 81.000000
+
+pos2X: 88.000000
+pos2Y: 60.000000
+pos2Z: -88.000000
+
+seekerX: 60.000000
+seekerY: 64.000000
+seekerZ: 7.000000
+
+hiderX: 1.000000
+hiderY: 63.000000
+hiderZ: -7.000000
+
+signJoinX: 196.000000
+signJoinY: 4.000000
+signJoinZ: 102.000000
+
+signStatsX: 17.000000
+signStatsY: 106.000000
+signStatsZ: -40.000000
+
+signStats2X: 163.000000
+signStats2Y: 7.000000
+signStats2Z: 138.000000
+
+signExitX: -1.000000
+signExitY: 65.000000
+signExitZ: -9.000000
+
+signExit2X: 59.000000
+signExit2Y: 65.000000
+signExit2Z: 10.000000
+
+signJoinSeekerX: 22.000000
+signJoinSeekerY: 106.000000
+signJoinSeekerZ: -45.000000
+
+signJoinSeeker2X: 163.000000
+signJoinSeeker2Y: 7.000000
+signJoinSeeker2Z: 135.000000
+
+signJoinHiderX: 12.000000
+signJoinHiderY: 106.000000
+signJoinHiderZ: -45.000000
+
+signJoinHider2X: 163.000000
+signJoinHider2Y: 7.000000
+signJoinHider2Z: 141.000000
+
+min: 1
+max: 12
+
+allowHiders: 10
+allowSeekers: 10
+ 
+seekergate1X: 54.000000
+seekergate1Y: 65.000000
+seekergate1Z: 7.000000
+
+seekergate2X: 54.000000
+seekergate2Y: 67.000000
+seekergate2Z: 8.000000
+
+#block hunt portal
+portal1X: "170"
+portal1Y: "4"
+portal1Z: "119"
+
+portal2X: "151"
+portal2Y: "13"
+portal2Z: "154"
+
+blocks:
+  98: Stone Bricks
+  17: Log
+  4: Cobble Stone
+  5: Plank
+  45: Bricks
+  20: Glass
+  86: Pumkin
+  170: Hay Bale
+  1: Stone
+  5: Oak Wood Planks
+
+...

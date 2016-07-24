@@ -1,0 +1,156 @@
+# -----------------------------------------------------------
+# MinecraftGenius76 
+# Mini-Games - BlockHunt 
+# Web site: minecraftgenius76.com
+# Youtube: http://www.youtube.com/user/minecraftgenius76
+# language file
+# Contributor(s): mcg76
+# -----------------------------------------------------------
+languageCode: "RUS"
+languageName: "RUSIAN"
+languageDescription: "RUSIAN LANGUAGE"
+version: "1.11.0"
+# -----------------------------------------------------------
+bh:
+ game: "BlockHunt"
+ prefix: "[BH]"
+ command:
+  in-game-only: "[BH]Commands only available in-game play.\n"
+  no-authorization: "[BH]You are not authorized to use this command!\n" 
+  blockoff:
+   success: "[BH] block position display OFF"
+  blockon:
+   success: "[BH] block position display ON"	
+  setbalance:
+   usage: "[BH]usage: /bh setbalance [player name] [amount]" 
+   success: "[BH] balance updated!" 
+  addvip:
+   usage: "[BH]usage: /bh addvip [player name]" 
+   success: "[BH] vip added!" 
+  delvip:
+    usage: "[BH]usage: /bh delvip [player name]" 
+    success: "[BH] vip delete!"
+  createprofile:
+    usage: "[BH]usage: /bh createprofile [player name]" 
+    success: "[BH] player profile created!"
+  setvip:
+    usage: "usage: /bh setvip [player name] [true|false]" 
+    success: "[BH] VIP setted!"
+  xyz: 
+    success: "[BH] You are in world "
+  stats: 
+    title: "[BH] My stats "
+    wins: "[BH] Wins "
+    loss: "[BH] Loss "
+    notfound: "[BH] No stats record found!"        
+  balance: 
+    success: "[BH] My balance is "
+    failed: "[BH] No profile found "    
+  profile: 
+    title: "[BH] My Profile "
+    balance: "[BH] balance "    
+    wins: "[BH] wins "    
+    loss: "[BH] loss "    
+    vip: "[BH] vip "        
+  info: 
+    profile: "/bh profile - player view profile\n"
+    stats: "/bh stats   - player view wins|loss stats\n"    
+    balance: "/bh balance - player view balances\n"    
+    leave: "/bh leaves  - player leaves the game\n"    
+    xyz: "/bh xyz     - tell player current location\n"       
+    home: "/bh home    - player return home\n"                
+    addvip: "/bh addvip [name] - admin add VIP player as VIP\n"
+    delvip: "/bh delvip [name] - admin change VIP status\n"   
+    setbalance: "/bh setbalance [name] -- admin set player coin balance\n"    
+    createprofile: "/bh createprofile [name] -- admin create a player profile\n"                    
+    newarena: "/bh newarena [name] - create new arena\n"
+    arenawand: "/bh arenawand [arena name]        - use wand to select arena position\n"   
+    seekerdoorwand: "/bh seekerdoorwand [arena name]   - use wand to select seeker door position \n"    
+    defencewand: "/bh defencewand [defence name]    - use wand to select a protection area\n"    
+    newdefence: "/bh newdefence  [defence name]    - create new protected area such as game center\n"     
+    addblock: "/bh addblock [arena name]         - add select blocks, by break it\n"                   
+    clear: "/bh clear                         - clear current selection\n"
+    setlobby: "/bh setlobby [arena name]         - add arena lobby, by break it\n"       
+    setseeker: "/bh setseeker [arena name]         - set arena seeker spawn point use player current location\n" 
+    sethider: "/bh sethider [arena name]         - set arena hider spawn point use player current location\n"   
+    blockon: "/bh blockon           - handy command, turn on block location display\n" 
+    blockoff: "/bh blockoff          - handy command, turn off block location display\n"   
+    xyz: "/bh xyz               - display player current location.\n"  
+ play:
+  won: " won "  
+  coins: "coins"
+  hider: "hiders "
+  seeker: "seekers "
+  elapsed:
+    time: "[BH] elapsed "
+    hider: " seconds | hiders "
+    seeker: " | seekers "	
+  teleport:
+    seekerswarp: "[BH] Return to Seeker warp]"   
+  itemcase:
+    vipfree: "[BH] Free for VIP - enjoy it!"   
+    notenoughtcoins: "[BH] Not enought coins! item price: "  	
+    thanks: "[BH] Thanks,"
+    purchased: " purchased for $"
+    coins: " coins"
+  setup:
+    addarenablock: "[BH] added arena block"  
+    setarenap1: "[BH] Set arena Position #1"  	
+    setarenap2: "[BH] Set arena Position #2"  	
+    setseekerdoorp1: "[BH] Set seeker door Position #1"  	
+    setseekerdoorp2: "[BH] Set seeker door Position #2"  		
+  warning: 
+    border: "[BH] You have reached arena border. step back."  
+    seekerkilled: "[BH] Seeker was killed "
+    hiderkilled: "[BH] Hider was killed "
+    remainseeker: "[BH] remain Seekers "
+    remainhider: " Hiders "     
+    hiderleft: "[BH] hider left the game "
+    seekerleft: "[BH] seeker left the game "     
+    killedbyseeker: "killed by seeker"
+    hider: "[BH] Hider "
+    toomanyseekers: "[BH] too many Seekers, try again later" 	
+    toomanyhiders: "[BH] too many Hiders, try again later" 
+    seekerwaitingforstart: "[BH] You joined team [Seeker]. Wait for start"
+    hiderwaitingforstart: "[BH] You joined team [Hider]. Wait for start"
+    playerexit: "[BH] You exited the game" 
+  finished: 
+    message: "[BH] Game finished!"
+    hinderwin: "[BH] Congratulate Hider(s) win: " 
+    seekerwin: "[BH] Congratulate Seeker(s) win: " 
+  start: 
+    countdown: "[BH] start in "
+    seconds: " seconds"     
+    missinghiders: "[BH] Missing [Hider] to start the game" 
+    missingseekers: "[BH] Missing [Seeker] to start the game"
+    releaseseekers: "[BH] Seeker(s) release in"
+    assignedblock: "[BH] Your assigned block "     
+    changeblock: "[BH] To change hold item from inventory."
+    timeleft5: " [BH] 5 seconds left. hiders "     
+    timeleft4: " [BH] 4 seconds left. hiders " 
+    timeleft3: " [BH] 3 seconds left. hiders " 
+    timeleft2: " [BH] 2 seconds left. hiders " 
+    timeleft1: " [BH] 1 seconds left. hiders " 
+  signs:
+    title: "[BlockHunt]"  
+    join: 
+      seekers: "Join Seeker"    
+      hiders: "Join Hider"    
+    stats: 
+      min: "Min."    
+      hiders: "Join [Hider]"    
+      seekers: "Join [Seeker]"
+      joined: " Joined: "
+      seekers2: "Seekers: "
+      hiders2: "Hiders: "
+  arena: 
+    preparing: "preparing"
+    available: "available"    
+    waiting: "waiting"   
+    playing: "playing" 	
+    countdown: "count down" 		
+  gateopen: "[BH] Opening [Seeker] gate"
+  timeout: "[BH] Hurry, time-out in"
+  seconds: " second(s)."
+  seekerreleased: "[BH] Attention [Seeker] released!"
+     

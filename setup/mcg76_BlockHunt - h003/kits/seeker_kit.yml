@@ -1,0 +1,30 @@
+---
+kitName: seeker_kit
+isDefault: false
+price: 20
+quantity: 1
+health: 20
+itemOnHand: 272
+armors:
+  helmet:
+  - 306
+  - "0"
+  - "1"
+  chestplate:
+  - 307
+  - "0"
+  - "1"
+  leggings:
+  - 308
+  - "0"
+  - "1"
+  boots:
+  - 309
+  - "0"
+  - "1"
+weapons:
+  272:
+  - 272
+  - "0"
+  - "1"
+...

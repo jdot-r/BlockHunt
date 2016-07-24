@@ -1,0 +1,15 @@
+---
+name: gamecenter
+levelName: SkGa.me BlockHunt
+type: ~
+effect: false
+point1X: 25
+point1Y: 104
+point1Z: -37
+point2X: 9
+point2Y: 109
+point2Z: -53
+entraceX: false
+entraceY: false
+entraceZ: false
+...
