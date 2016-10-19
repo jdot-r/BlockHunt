@@ -1,3 +1,7 @@
+
+#The following maps within this plugin may be outdated and can crash your game!
+
+
 Block Hunt v2.2.0 changes
 [Enhancements]
 1. prevent not-in-game player going inside arena during game play
@@ -50,11 +54,11 @@ Happy hiding! (or seeking)
 - fully automate gaming start and stop based on players
 
 - fully configurable following game play parameters
-•time the play finish
-•time to release seekers
-•minimal players to start the game
-•maximum players allow for the arena
-•blocks allow to use for the arena
+â€¢time the play finish
+â€¢time to release seekers
+â€¢minimal players to start the game
+â€¢maximum players allow for the arena
+â€¢blocks allow to use for the arena
 
 - built-in stand alone mini-shop with beautiful caseitems
 
@@ -67,18 +71,18 @@ Happy hiding! (or seeking)
 - built-in automatic door opening for seekers
 
 - fully customizable to allow player use own Hide and Seek from scratch use own map
-•create new arena
-•set arena positions
-•set arena seeker spawn location
-•set arena hider spawn location
-•set arena seeker door positions
-•set seeker join signs
-•set hider join sign
-•set arena stats sign
-•set arena exit sign  
-•set arena allowable blocks
-•create new protected area
-•set protected area
+â€¢create new arena
+â€¢set arena positions
+â€¢set arena seeker spawn location
+â€¢set arena hider spawn location
+â€¢set arena seeker door positions
+â€¢set seeker join signs
+â€¢set hider join sign
+â€¢set arena stats sign
+â€¢set arena exit sign  
+â€¢set arena allowable blocks
+â€¢create new protected area
+â€¢set protected area
 
  - fully customizable to allow player use own map
 
@@ -92,9 +96,9 @@ Installation Steps
 pre-requisite is have Pocketmine server installed.
 
 Download and unzip mcg76_blockhunt_minigame.zip file. this zip file has 3 files.
-•mcg76_BlockHunt.zip  --  the prebuild plugin configuration files
-•mcg76_blockhunt_home.zip -- this is the mini-game map
-•mcg76_BlockHunt_v1.0.5.phar -- this is the mini-game plugin file
+â€¢mcg76_BlockHunt.zip  --  the prebuild plugin configuration files
+â€¢mcg76_blockhunt_home.zip -- this is the mini-game map
+â€¢mcg76_BlockHunt_v1.0.5.phar -- this is the mini-game plugin file
 
 Next, just drop and unzip the files into the proper location then start your server and it's ready to play. it's that simple.
 
